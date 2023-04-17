@@ -1,5 +1,5 @@
 #Title
-Weather Dashboard
+Book Search Engine
 
 ##Table of Contents
 - [Description](#description)
@@ -10,29 +10,37 @@ Weather Dashboard
 - [Tests](#tests)
 - [Questions](#questions)
 
-##Description 
-An application that allows you to search for the weather conditions in city of choice upon search including the temperature, an icon of the weather description, a description in words of the weather conditions,  the humidity, and wind speed for current day plus a five day forcast containing the same elements.
+## Description 
+Book Search Engine allow you to search for and then save books.
 
-##License
+## License
 N/a
 
-##Installation
+## Installation
+To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command npm install into the root directory of the terminal. This will install all dependencies in the package.json required to run this application. Don't forget to add .gitignore files to include node_modules before installing npm.
+
+## Usage
+Run the following commands in the command-line in the root of the folder
+
+npm install
+npm run build
+npm run develop
+The browser will open at http://localhost:3000/
+Sign Up for an account by entering an email, username, and password
+After signing up, you will automatically be logged in
+Once logged in, you may search for a book
+You have the ability to save books, which you can retrieve at the "See Your Books" tab
+You can search for books again using the "Search For Books" tab
+You may logout by hitting the "logout" button
+
+## Contribution
 N/a
 
-##Usage
+## Tests
 N/a
 
-##Contribution
-N/a
-
-##Tests
-N/a
-
-##Questions
+## Questions
 For questions please contact Maivory12@icloud.com
 
-##Mock-Up
-![Mock Up](./assets/images/Web%20capture_22-12-2022_2017_127.0.0.1.jpeg) 
+heroku link : https://git.heroku.com/gentle-lowlands-55034.git
 
-##Deployment
-https://maivory12.github.io/weather-dashboard/
